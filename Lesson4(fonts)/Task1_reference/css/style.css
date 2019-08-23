@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+p {
+    font-family: roboto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+p::before, p::after {
+    content: '"';
+    font-family: Lato;
+    font-size: 1.5em;
+    color: red;
+}
+a {
+    color:grey;
+    margin: 10px;
+    font-size: 2em;
+}
+a[href*="facebook"]:hover {
+    color: blue;
+}
+a[href*="youtube"]:hover {
+    color: red;
+    
+}
+a[href*="instagram"]:hover {
+    border-radius: 3px;
+    color: #fff;
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+a[href*="pinterest"]:hover {
+    color: red;
+}
+h1 {
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+ul {
+    font-family: sans-serif;
+    list-style: square;
+}
+li {
+    margin-bottom: 0.6em;
+}
+li:first-child {
+    color: rgb(248, 53, 118);
+    font-weight: bold;
+}
+li:last-child {
+    font-style: italic;
+    color: green;
+}
+

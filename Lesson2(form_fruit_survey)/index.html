@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The World Of Fruit</h1>
+    </header>
+    <main>
+        <h1>Fruit Survey</h1>
+        <form action="#">
+            <p id="first">
+                <label for="name">Name</label>
+                <input type="text" name="firstname" id="name" required>
+            </p>
+            <p id="second">
+                <label for="address">Address</label>
+                <input type="text" id="address" required>
+            </p>
+            <p id="third">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+            </p>
+            <p id="fourth">How many pieces of fruit<br> do you eat per day?</p>
+            <div><input type="radio" name="perday" value="0" required>0</div>
+            <div><input type="radio" name="perday" value="1" required>1</div>
+            <div><input type="radio" name="perday" value="2" required>2</div>
+            <div><input type="radio" name="perday" value="More than 2" required>More than 2</div>
+            <p id="fifth">My favourite fruit
+                <select name="favourite" size="4" multiple required>
+                    <option value="apple">Apple</option>
+                    <option value="apple">Banana</option>
+                    <option value="apple">Plum</option>
+                    <option value="apple">Pomegranate</option>
+                    <option value="apple">Cherry</option>
+                    <option value="apple">Avocado</option>
+                </select>
+            </p>
+            <p id="sixth">Would you like a<br>brochure?</p>
+            <div><input type="checkbox" name="brochure" value="yes" required></div>
+            <button type="submit" name="subm" value="subm">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

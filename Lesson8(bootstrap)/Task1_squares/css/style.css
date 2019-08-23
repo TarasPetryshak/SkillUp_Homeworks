@@ -1,0 +1,20 @@
+.column {
+    background: rgb(2, 26, 78);
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.big {
+    height:22vw;
+}
+.small {
+    height: 16vw;
+
+}
+.small2 {
+    height: 16vw;
+    margin-top: -8vw;
+}
+.small3 {
+    height: 16vw;
+    margin-top: -16vw;
+}

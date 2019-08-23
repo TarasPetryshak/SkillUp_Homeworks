@@ -1,0 +1,45 @@
+.main-box {
+    background: rgb(226, 225, 225);
+}
+ul {
+    list-style: none;
+}
+.item a {
+    font-size: .8em; 
+}
+input, textarea, button {
+    width: inherit;
+    border: none;
+    outline: none;
+}
+input {
+    height: 6vh;
+}
+p {
+    font-size: 0.9em;
+}
+button {
+    height: 8vh;
+    background: rgb(42, 218, 203);
+    font-size: .7em;
+    letter-spacing: 0.1em;
+}
+.map {
+    height: 100vh;
+}
+.location {
+    background: rgb(168, 167, 167);
+}
+.signature {
+    font-size: .8em;
+}
+.footer {
+    height: 40vh;
+}
+.inc {
+    font-size: 1em;
+}
+.footer-nav {
+    font-size: .8em;
+    text-transform: capitalize;
+}

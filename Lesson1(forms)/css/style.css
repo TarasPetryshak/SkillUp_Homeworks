@@ -1,0 +1,54 @@
+ol {
+    list-style: upper-roman;
+}
+ul {
+    list-style: disc;
+}
+span {
+    font-weight: bold;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+th  {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid rgb(194, 192, 192);
+    padding-left: 5px; 
+}
+.list {
+    width: 280px;
+    height: 320px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.form table {
+    position: absolute;
+    left: 30%;
+    top: 20px;
+}
+.form table, .form td {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.form th {
+    background: rgb(125, 125, 255)
+}
+.form td {
+    text-align: left;
+    padding: 0 0 0 2px;
+}
+.form [type="text"] {
+    width: 100%;
+    margin-left: -3px;
+}
+button {
+    margin-left: 25%;
+}
+

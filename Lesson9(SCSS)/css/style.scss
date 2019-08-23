@@ -1,0 +1,148 @@
+@mixin alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+@mixin symbol-check {
+    content:"\2611";
+    color:blue;
+    margin-right: .5vw;
+}
+@mixin symbol-close {
+    content:"\2612";
+    color: red;
+    margin-right: .5vw;
+}
+body {
+    @include alignment;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.head {
+    width: 80vw;
+    height: 10vh;
+    @include alignment;
+    margin-bottom: 10vh;
+    font-weight: lighter;
+    font-size: 6vh;
+}
+.main-container {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .box {
+        width: 20vw;
+        box-shadow: 0 0 2vw rgb(177, 176, 176);
+        @include alignment;
+        flex-direction: column;
+        justify-content: space-around;
+        .plan-head {
+            text-transform: uppercase;
+            font-weight: unset;
+        }
+    }
+}
+.price-value {
+    font-weight: bold;
+    font-size: 7vh;
+}
+.month {
+    color: rgb(156, 156, 156)*6;
+}
+.description19 {
+    list-style: none;
+    .item {
+        display: inline-block;
+        margin-bottom: 2vh;
+        color: rgb(156, 156, 156);
+        font-size: 2.2vh;
+        &:first-child::before {
+            @include symbol-check;
+        }
+            &:nth-child(2)::before {
+               @include symbol-check;
+            }
+            &:nth-child(3)::before {
+                @include symbol-close;
+            }
+            &:last-child::before {
+                @include symbol-close;
+            }
+        }  
+}
+.description49 {
+    list-style: none;
+    .item {
+        display: inline-block;
+        margin-bottom: 2vh;
+        color: rgb(156, 156, 156);
+        font-size: 2.2vh;
+        &:first-child::before {
+            @include symbol-check;
+        }
+            &:nth-child(2)::before {
+               @include symbol-check;
+            }
+            &:nth-child(3)::before {
+                @include symbol-check;
+            }
+            &:last-child::before {
+                @include symbol-close;
+            }
+        }  
+}
+.description99 {
+    list-style: none;
+    .item {
+        display: inline-block;
+        margin-bottom: 2vh;
+        color: rgb(156, 156, 156);
+        font-size: 2.2vh;
+        &:first-child::before {
+            @include symbol-check;
+        }
+            &:nth-child(2)::before {
+               @include symbol-check;
+            }
+            &:nth-child(3)::before {
+                @include symbol-check;
+            }
+            &:last-child::before {
+                @include symbol-check;
+            }
+        }  
+}
+.footer {
+    width: 80vw;
+    height: 35vh;
+    @include alignment;
+    flex-direction: column;
+    .footer-p {
+        color: rgb(156, 156, 156);
+        width: 50vw;
+        text-align: center;
+        font-size: 2.2vh;
+    }
+        .line {
+            display: inline-block;
+            background: rgb(199, 198, 198);
+            width: 10vw;
+            height: .2vh;
+        }
+        .button {
+            display: inline-block;
+            margin: 5vh 1vw 0 1vw;
+            width: 10vw;
+            height: 5vh;
+            color: white;
+            font-size: 2.2vh;
+            border: none;
+            outline: none;
+            border-radius: 520vh;
+            background: rgb(4, 99, 241);
+        }
+    }

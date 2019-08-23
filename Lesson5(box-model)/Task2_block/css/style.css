@@ -1,0 +1,12 @@
+.block {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgb(231, 211, 97);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    border-left: 1vw solid rgb(78, 143, 240);
+    border-right: 1vw solid rgb(78, 143, 240);
+    border-radius: 3%;
+}

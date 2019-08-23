@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif; }
+
+.head {
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  font-weight: lighter;
+  font-size: 6vh; }
+
+.main-container {
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .main-container .box {
+    width: 20vw;
+    box-shadow: 0 0 2vw #b1b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; }
+    .main-container .box .plan-head {
+      text-transform: uppercase;
+      font-weight: unset; }
+
+.price-value {
+  font-weight: bold;
+  font-size: 7vh; }
+
+.month {
+  color: #9c9c9c; }
+
+.description19 {
+  list-style: none; }
+  .description19 .item {
+    display: inline-block;
+    margin-bottom: 2vh;
+    color: #9c9c9c;
+    font-size: 2.2vh; }
+    .description19 .item:first-child::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description19 .item:nth-child(2)::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description19 .item:nth-child(3)::before {
+      content: "\2612";
+      color: red;
+      margin-right: .5vw; }
+    .description19 .item:last-child::before {
+      content: "\2612";
+      color: red;
+      margin-right: .5vw; }
+
+.description49 {
+  list-style: none; }
+  .description49 .item {
+    display: inline-block;
+    margin-bottom: 2vh;
+    color: #9c9c9c;
+    font-size: 2.2vh; }
+    .description49 .item:first-child::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description49 .item:nth-child(2)::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description49 .item:nth-child(3)::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description49 .item:last-child::before {
+      content: "\2612";
+      color: red;
+      margin-right: .5vw; }
+
+.description99 {
+  list-style: none; }
+  .description99 .item {
+    display: inline-block;
+    margin-bottom: 2vh;
+    color: #9c9c9c;
+    font-size: 2.2vh; }
+    .description99 .item:first-child::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description99 .item:nth-child(2)::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description99 .item:nth-child(3)::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+    .description99 .item:last-child::before {
+      content: "\2611";
+      color: blue;
+      margin-right: .5vw; }
+
+.footer {
+  width: 80vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .footer .footer-p {
+    color: #9c9c9c;
+    width: 50vw;
+    text-align: center;
+    font-size: 2.2vh; }
+  .footer .line {
+    display: inline-block;
+    background: #c7c6c6;
+    width: 10vw;
+    height: .2vh; }
+  .footer .button {
+    display: inline-block;
+    margin: 5vh 1vw 0 1vw;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    font-size: 2.2vh;
+    border: none;
+    outline: none;
+    border-radius: 520vh;
+    background: #0463f1; }
+
+/*# sourceMappingURL=style.css.map */

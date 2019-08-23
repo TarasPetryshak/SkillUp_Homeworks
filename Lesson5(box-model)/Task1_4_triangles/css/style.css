@@ -1,0 +1,103 @@
+.list {
+    width: 20vw;
+    height: 50vh;
+    margin: 5vh 5vw 20vh;
+    border: .5vw solid gray;
+    float: left;
+    text-align: center;
+}
+.items {
+    list-style: none;
+    text-align: left;
+}
+.item {
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+.item::before {
+    content:"";
+    display: inline-block;
+    border-width: 1vh 1vw 1vh 1vw;
+    border-style: solid;
+    border-color: transparent transparent transparent violet;
+    height: 0.05vh;
+    width: 0.01vw;
+    margin-right: -.5vw;
+    vertical-align: middle;
+}
+h2 {
+    margin-bottom: 0;
+}
+.triangles {
+    float: right;
+    margin-right: 5vw;
+    width: 40vw;
+    text-align: center;
+    border: 2px solid gray;
+}
+.triangle {
+    display: inline-block;
+}
+#triangle1 {
+    border-width: 6vw 4vw 6vw 4vw;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    width: .01vw;
+    height: .01vw;
+}
+#triangle2 {
+    border-width: 6vw 4vw 6vw 4vw;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    width: .01vw;
+    height: .01vw;
+    margin-bottom: -6vw;
+}
+#triangle3 {
+    border-width: 4vw 6vw 4vw 6vw;
+    border-style: solid;
+    border-color: transparent  transparent transparent green;
+    width: .01vw;
+    height: .01vw;
+    margin-right: -10vw;
+    margin-left: 3vw;
+}
+#triangle4 {
+    border-width: 4vw 6vw 4vw 6vw;
+    border-style: solid;
+    border-color: transparent green transparent transparent;
+    width: .01vw;
+    height: .01vw;
+}
+#triangle5 {
+    border-width: 6vw 6vw 6vw 0vw;
+    border-style: solid;
+    border-color: transparent transparent yellow transparent;
+    width: .01vw;
+    height: .01vw;
+}
+#triangle6 {
+    border-width: 6vw 6vw 0vw 6vw;
+    border-style: solid;
+    border-color: transparent yellow transparent transparent;
+    width: .01vw;
+    height: .01vw;
+    margin-left: -3vw;
+    margin-right: 4vw;
+}
+#triangle7 {
+    border-width: 0vw 6vw 6vw 6vw;
+    border-style: solid;
+    border-color: transparent transparent transparent blue;
+    width: .01vw;
+    height: .01vw;
+    margin-right: -3vw;
+}
+#triangle8 {
+    border-width: 6vw 0vw 6vw 6vw;
+    border-style: solid;
+    border-color: blue transparent transparent transparent;
+    width: .01vw;
+    height: .01vw;
+    margin-bottom: -6vw;
+}
